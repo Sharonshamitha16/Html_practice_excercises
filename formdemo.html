@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="signup.html" method="get" enctype="multipart/form-data " >
+    <div>
+      <label for="Username">User Name</label> 
+      <input type="text" name="Username" id="Username" value="sharon" placeholder="Username" maxlength="10" required/>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="name" >
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password" required minlength="8">
+    </div>
+    
+    <div>
+        <label for="DateofBirth">Date of birth</label>
+        <input type="date" name="DateofBirth" id="DateofBirth" maxlength="4" min="1900" step="10">
+    </div>
+     <div>
+        <label for="about">About</label>
+        <textarea name="about" id="about" cols="18" rows="5">About me..</textarea>
+     </div>
+     <div>
+        <input type="checkbox" name="smsalert" id="smsalert">
+        <label for="smsalert">SMS Alert</label>
+    </div>
+    <div>
+        <input type="checkbox" name="emailalert" id="emailalert">
+        <label for="emailalert">Email Alert</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <select name="state" id="state" multiple>
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="AndhraPradesh">AndhraPradesh</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Jammu&Kashmir">Jammu&Kashmir</option>
+            <option value="Maharasthra">Maharasthra</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="goa">goa</option>
+            <option value="WestBengal">WestBengal</option>
+            <option value="sikkim">sikkim</option>
+        </select>
+    </div>
+    <div>
+        <label for="file">Resume</label>
+        <input type="file" name="file" id="file">
+
+    </div>
+    <div>
+        <input type="image" src="img.jpg" width="90">
+    </div>
+    <div>
+        <button type="submit">signup </button>
+        <button type="reset">Reset</button>
+    </div>
+    
+    
+</form>
+  </body>
+</html>
+<!-- http://127.0.0.1:5500/signup.html?Username=shamitha  http://127.0.0.1:5500/signup.html?Username=sam-->

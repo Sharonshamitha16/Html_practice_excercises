@@ -1,0 +1,4 @@
+Alt + Shift + F --> prettier formnatter
+any tag * number --> shows  that many lines of code
+alt+ shift + down arrow or up arow --> this shows exact line copying down
+alt+ cursor pointer --> gives multiple cursor 
