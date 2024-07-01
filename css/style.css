@@ -1,0 +1,59 @@
+/* universal selector */
+*{
+    color: blue;
+}
+
+/* type selector */
+h2 {
+  color: orange;
+}
+
+h3 {
+  color: rgb(157, 255, 0);
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(165, 42, 93);
+}
+
+/* id selector */
+#softdev{
+    color: rgb(183, 136, 228);
+}
+/* class selector */
+.greentext{
+    color: aquamarine;
+}
+
+/* child selector */
+/* div has a child named p so effects occurs for only p  */
+div>p{
+    color: black;;
+}
+
+/* desecendant selector */
+/*  this is whomever in div all can get this effect */
+/* the second tag gets affected in every case */
+
+div a{
+    color: bisque;
+}
+
+/* sibiling selector */
+/* the sibilings whatever we mentioning */
+/* the second tag gets affected in every case */
+h1~h4{
+    color: rgb(255, 205, 209);
+}
+
+/* adjacent  sibiling selector */
+/* the second tag gets affected in every case */
+
+h1+h2{
+ color: aqua;
+}
+
+
+/* if same tag is given in all form selector it takes the specific one and if
+ specific given twicw then it takes the last one  */

@@ -1,0 +1,153 @@
+h3 {
+  color: rgb(1, 1, 1);
+  /* white colour 255,255,255;black 1,1,1 */
+  color: #000000;
+  /* hex value rep */
+  color: hsl(100, 0%, 44%);
+  /* hue saturation light */
+  background-color: rgba(255, 0, 0, 0.2);
+  /* a denotes transparancy  lesser pt less transparancy the incresing number denotes higher transparency*/
+  font-size: 1.5em;
+  font-weight: normal;
+/* thickness of font */
+  font-style: italic;
+  font-stretch: extra-expanded;
+  text-transform: uppercase;
+  /* if its lower case it chamges uppercase and viceversa for lowercase */
+  text-decoration: underline;
+  letter-spacing: 0.25em;
+  word-spacing: 0.5em;
+  text-align: center;
+  vertical-align: baseline;
+  border: 1px dotted brown;
+}
+
+
+/* fonts */
+/* serif , sans-serif, monospace(koreanview),timesnewroman (serif)  fantasy (decorative font)*/
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*  other font for backup */
+  font-size: 2em;
+
+}
+
+/* font-weight: light,medium,bold,black
+ font-style: normal,italic,oblique
+ font-stretch:condensed,regular,Extended  */
+
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 6px 2px 2px gray;
+  /*first px represents left or right move second px represents vertical move (downwards) 3rd px blur effect denotes  */
+  /* border: 1px soild brown; */
+  /* this above tag  can be given seperately */
+  /* border-top-width: 7px;
+  border-bottom-width: 3px; */
+  /* border-width:7px 1px 10px;
+  border-width: 2px;
+  border-style:solid;
+  border-style:  soild dashed;
+  border-color: black; */
+  width:80%;
+  /* width :50%  this denotes browser 1/4th */
+  /* height: 700px; */
+  background-color: beige;
+  /* max-height: 300px;
+  overflow:scroll; */
+  /* this makes content to make scroll which overflowed */
+  padding :15px;
+  margin:20px auto 20px auto;
+  border-radius:70px 50px;
+  /* this is eliptical border */
+ /* box-shadow: 10px 10px 5px 20px gray; */
+border :30px solid ;
+border-image: url("/media/border.png") 30 round;
+}
+
+.paradiv{
+    max-width: fit-content;
+    min-width: 700px;
+    width: 500px;
+    
+    border: 1px solid blue
+    /* margin : 10%;
+    padding: 10%; */
+}
+p:first-letter {
+  font-size: 2em;
+}
+p::first-line {
+  font-style: italic;
+}
+a:visited {
+  color: #2559b9;
+}
+
+a:link {
+  color: aqua;
+}
+/* not yet visited */
+
+a:hover {
+  color: #25b925;
+}
+a:active {
+  color: #b98a25;
+}
+/*onclick colour change  */
+a:focus {
+  color: rgb(200, 255, 0);
+}
+/*  */
+p.myclass {
+}
+/* this denotes the clasname in para */
+
+/* all these used rare */
+p[class] {
+  color: orange;
+}
+/* this denotes para tag which has just the attribute class or id if mentioned cls then cls , id means id  *
+*/
+p[class~="myclass"] {
+  color: #2565b9;
+  max-width: fit-content;
+}
+/* this picks if clas attribute has a name of the specific
+ given then it's picks it  */
+p[class^="m"] {
+  color: #b98a25;
+}
+/* same like above but captures just the prefix of the word  */
+
+p[class$="2"] {
+  color: rgb(77, 137, 190);
+}
+/* same like above but captures just the prefix of the word  */
+
+p[class*="ss"] {
+  color: rgb(66, 63, 59);
+}
+/* same like above but captures just the substring any letter  of the word  */
+ li{
+    display: inline-block;
+    margin-right: 25px;
+ }
+ .comingsoon{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* this states that it takes the space of the content but it won't show the content */
+ }
+
+ .ultags{
+    text-align: justify;
+ }
+ .links{
+    margin:10px;
+    text-decoration: none;
+    padding: 25px;
+
+ }

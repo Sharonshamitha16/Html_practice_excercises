@@ -4,13 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <!-- this denotes each character in every language to0 understand by the browser which is encoded  -->
-    <meta http-equiv= "X-UA-Compatible" content "IE-edge">>
+    <meta http-equiv= "X-UA-Compatible" content "IE-edge">
    <!-- this denotes the compability of browsers if it' like above it supports older version if it's IE-5 then 
     it supports only 5 version-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="desdcription" content =" Meta tags in html">
+    <!-- it helps to make website responsive a key pt  -->
+    <meta name ="description" content =" Meta tags in html">
+   <!-- this helps to make a give content when our site is  searched -->
     <title>Document</title>
-</head>
+    <!-- internal css -->
+<!-- <style type ="text/css">
+   h3{
+      color: blue;
+      text-decoration: underline;
+   }
+   p{
+      color: brown;
+   }
+</style> -->
+<link rel="stylesheet" href="/css/style.css">
+
+   </head>
 <!-- text tags 
     p
     h1-h6
@@ -21,7 +35,9 @@
  
 <body>
     <h1>Logic First</h1>
-    <h2>Heading 2</h2> 
+    <!-- inline css <h2 style="color: green;text-decoration:underline;">Heading 2</h2>  -->
+    <h2 >Heading 2</h2> 
+
     <!-- h1 32 px 200%  2em 
         h2 24 px  150%  1.5em
         h3 18 px  133%  1.125em
@@ -34,12 +50,17 @@
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
     <p><i>This</i> is a paragraph</p>
+   
+   <div>
+      <p>Have any questions</p><a href="">Contact me</a>
+   </div>
+   
     <!-- i is italics -->
     <p><sup>a</sup>2</p>
     <!-- sup is squaring eg a2 -->
     <h1>h<sub>2</sub>0</h1>
     <!-- sub is denoting number down eg  h2o -->
-    <p>HELLO, <br/> 
+    <p class="greentext">HELLO, <br/> 
     I am a software developer
     <hr/>
     </p>  
@@ -136,7 +157,7 @@
  </dl>
 </div>
 <section>
-   <iframe src="formdemo.html" frameborder="0"></iframe>
+   <iframe src="/form/formdemo.html" frameborder="0"></iframe>
     <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.981882900414!2d80.19693129999999!3d12.973010500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525de5beaadb9d%3A0x3cac33cdedca0e3f!2sSubhakeerthana%20Apartments!5e0!3m2!1sen!2sin!4v1719657911900!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="50" height="50" loading ="lazy" fullscreen
       =""></iframe>
 <!-- loading lazy denotes the map loads lately it won't make the site to wait 

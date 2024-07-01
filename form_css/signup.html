@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form_css/signup.css">
+</head>
+<body>
+    <h2>Additional Information</h2>
+    <div class="addflex">
+    <div class ='regform'>
+       
+        <form method ="get" action="/form_css/home.html" enctype="multipart/form-data">
+     
+           
+            <div class="input" >
+                <label  class="textlabel"for="name">DOB</label>
+                <input type="date" id="date" name="date"> 
+            </div>
+            <div class="input" >
+                <label  class="textlabel"for="name">Time of submission</label>
+                <input type="datetime-local" id="datetime-local" name="datetime-local"> 
+            </div>
+            <div class="input" >
+                <label  class="textlabel"for="tel">PhoneNumber</label>
+                <input type="tel" id="tel" name="tel"> 
+            </div>
+            <div class="input" >
+                <label  class="textlabel"for="file">Resume</label>
+                <input type="file" id="file" name="file"> 
+            </div>
+            <div class="input" >
+                <label  class="textlabel"for="url-g">URL-github</label>
+                <input type="url" id="url-g" name="url-g"> 
+            </div>
+            <div class="input" >
+                <label  class="textlabel"for="url-l">URL-LinkedIn</label>
+                <input type="url" id="url-l" name="url-l"> 
+            </div>
+
+        </div>
+       
+        <div class="addinfo">
+             <div class="checkboxtype" >
+                <input type="checkbox" name="smsalert" id="smsalert">
+                <label  class="textlabel"for="smsalert">SMS Alert</label>
+                <input type="checkbox" name="emailalert" id="emailalert">
+                <label  class="textlabel"for="emailalert">Email Alert</label>
+            </div>
+            <div class="state">
+                <label for="state">select the state</label>
+                <br>
+                <select name="state" id="state" cols="10" rows="10" >
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="AndhraPradesh">AndhraPradesh</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Jammu&Kashmir">Jammu&Kashmir</option>
+                    <option value="Maharasthra">Maharasthra</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="goa">goa</option>
+                    <option value="WestBengal">WestBengal</option>
+                    <option value="sikkim">sikkim</option>
+                </select>
+            </div>
+        
+            
+            
+              <div class="textareatype" >
+                <label for="about"> Mention Skills </label>
+                <textarea name="about" id="about" cols="18" rows="5">About me..</textarea>
+             </div>
+            <div class="input">
+                <label for="range">Mention ur skill range</label>
+                <input type="range" id="range" name="range"> 
+            </div>
+        <!-- <div class="btn" >
+            <button type="submit">Submit</button> -->
+            <div class="input" >
+                <input type="image" src="/form_css/submit.png" width="30">
+            </div>
+            <!-- <button type="reset">Reset</button> -->
+        </div>
+    </div>
+        </form>
+       </div>    
+</body>
+</html>
