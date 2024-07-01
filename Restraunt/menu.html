@@ -6,13 +6,32 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Spicy Hut - Finest Taste, Freshest ingredients</h1>
-    <a href="Restraunt.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="mailto:guestuser@gmail.com">send a mail to us</a>
-    <br />
-    <a href="#desert">check out our Desert</a>
+    <header>
+      <div style ="text-align: center; background-color: antiquewhite;"><h1>Spicy Hut - Finest Taste, Freshest ingredients</h1></div>
+        <nav style=" text-align:center; font-weight: 100; background-color: blanchedalmond;">
+          <ul style="list-style: none; display: flex;  text-align:center;">
+            <li style="padding: 10px;"><a href="Restraunt.html">Home</a></li>
+            <li style="padding: 10px;"><a href="about.html">About</a></li>
+            <li style="padding: 10px;"><a href="menu.html">Menu</a></li>
+            <li style="padding: 10px;"> <a href="https://www.swiggy.com/" target="_blank">order online</a></li>
+            <li style="padding: 10px;"><a href="menu.html#desert" >check out our Desert</a></li>
+            <li style="padding: 10px;"><a href="contact.html" >Contact</a></li>
+          </ul> 
+        <!-- the above website is relative url -->
+      <!-- alt+shift+down arrow for copying same items -->
+      </nav>
+      </header>
+      <main>
+        <!-- BANNER SECTION -->
+        <section id ="banner" style="height: 80vh; ">
+            <div>
+             <img src="/media/menubg2.png"  alt="banner img" style="width:100%">
+            </div>
+        </section>
+        <!-- above link is absolute url -->
+      <!-- target attribute in anchor tag denotes that the redirecetec pg opens in next tab not the same tab -->
+   <br><br><br><br><br>
+   <br><br><br>
     <h2>Starters</h2>
     <ol>
       <li>Samosa Rs. 28</li>
@@ -24,9 +43,29 @@
       <li>Dosa Rs.95</li>
       <li>Poori Rs.90</li>
       <li>Pongal Rs.85</li>
-      <li></li>
+      
     </ol>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h2>Main Menu</h2>
+    <ol>
+      <li>Dosa Rs.95</li>
+      <li>Poori Rs.90</li>
+      <li>Pongal Rs.85</li>
+      
+    </ol>
+    <h2>Main Menu</h2>
+    <ol>
+      <li>Dosa Rs.95</li>
+      <li>Poori Rs.90</li>
+      <li>Pongal Rs.85</li>
+    </ol>
+    <h2>Main Menu</h2>
+    <ol>
+      <li>Dosa Rs.95</li>
+      <li>Poori Rs.90</li>
+      <li>Pongal Rs.85</li>
+      
+    </ol>
+
     <h2 id="desert">Desert</h2>
     <ol>
       <li>Gulab juman Rs. 55</li>
@@ -34,30 +73,38 @@
       <li>Mango Lassi Rs.65</li>
     </ol>
     <table border="2" bgcolor="beige" cellpadding ="3" cellspacing="3">
+     
         <thead>
-      <tr>
+          <tr>
             <th> </th>
             <th>ITEM</th>
-            <th> PRICE</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="3"> starters </td>
-        <td>Samosa</td>
-        <td>  Rs.28 </td> 
-      </tr>
-      <tr>
-        <td> Veg Roll </td>
-        <td>  Rs.35 </td> 
-      </tr> <tr>
-        <td> Vada </td>
-        <td>  Rs.20 </td> 
-      </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-    </table>
+            <th>PRICE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5"> starters </td>
+            <td>Samosa</td>
+            <td class="amt">Rs.28</td>
+          </tr>
+          <tr>
+            <td>Veg Roll</td>
+            <td class="amt">Rs.35</td>
+          </tr>
+          <tr>
+            <td>Vada</td>
+            <td class="amt">Rs.20</td>
+          </tr>
+          <tr>
+              <td>Dosa</td>
+              <td class="amt">Rs.55</td>
+            </tr>
+            <tr>
+              <td>Poori</td>
+              <td class="amt">Rs.60</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
   </body>
 </html>
